@@ -25,4 +25,6 @@ graph.graph_attr.update(overlap="scale")
 graph.layout()
 graph.draw('big_graph.png')
 
+conn.close()
+
 
